@@ -4,16 +4,16 @@ target-version = ['py36', 'py37', 'py38']
 
 [project]
 name = "Notebooker"
-version = "0.1.0"
+version = "0.6.2"
 description = "Productionise and schedule your Jupyter Notebooks, just as interactively as you wrote them. Notebooker is a webapp which can execute and parametrise Jupyter Notebooks as soon as they have been committed to git. The results are stored in MongoDB and searchable via the web interface, essentially turning your Jupyter Notebook into a production-style web-based report in a few clicks."
 readme = "README.md"
 authors = [
-    { name="Jon Bannister", email="jon@example.com" },
-    { name="Douglas Bruce", email="douglas@example.com" },
-    { name="Franek Jemiolo", email="franek@example.com" },
-    { name="Sam Ratcliff", email="sam@example.com" },
-    { name="Matthew Dodds", email="matthew@example.com" },
-    { name="Dominik Christ", email="dominik@example.com" }
+    { name="Jon Bannister"},
+    { name="Douglas Bruce"},
+    { name="Franek Jemiolo"},
+    { name="Sam Ratcliff"},
+    { name="Matthew Dodds"},
+    { name="Dominik Christ"}
 ]
 license = { text="MIT" }
 dependencies = ["jupyter", "pandas", "mongodb"]
